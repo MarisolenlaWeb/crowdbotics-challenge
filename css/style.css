@@ -1,8 +1,12 @@
 /* General */
 
-.border-right{
-    border-right: 2px solid #fff;
+.border-left{
+    border-left: 2px solid #fff;
 }
+
+// .border-bottom{
+//     border-bottom: 2px solid #fff;
+// }
 
 .color-primary{
     color: #001273;
@@ -16,7 +20,13 @@
     margin-right: 5px;
 }
 
+// .mt-120{
+//     margin-top: 120px;
+// }
 
+.pd-0{
+    padding: 0;
+}
 /********************LEFT SIDE*********************/
 
 /* Navbar left*/
@@ -76,7 +86,6 @@
 }
 
 .center-title h1{
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 40%;
@@ -85,14 +94,12 @@
 
 .center-title a{
     color: #fff;
-    margin: 0;
     position: absolute;
     top: 95%;
     left: 50%;
     transform: translate(-40%, -50%);
     font-size: 25px;
 }
-
 
 
 /********************RIGHT SIDE*********************/
@@ -126,3 +133,44 @@
 .left-inner-addon i {
     padding: 14px; 
 }
+
+/* Content */
+
+.right-side{
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    bottom: 0;
+    width: 50%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.city-content{
+    text-align: center;
+    border: solid 2px #fff;
+    padding: 0;
+    width: 50%;
+    height: 340px;
+}
+
+// .city-content:hover{
+//     background-color: #fff;
+//     color: #001273;
+// }
+
+.city-content h2{
+    margin-top: 40px;
+}
+
+.city-content img{
+    width: 200px;
+    margin-top: 23px;
+}
+
+// .city-content img:hover{
+//     background-color: #001273;
+// }
+
+
+
