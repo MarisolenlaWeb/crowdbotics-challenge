@@ -16,6 +16,7 @@
     margin-right: 5px;
 }
 
+
 /********************LEFT SIDE*********************/
 
 /* Navbar left*/
@@ -68,12 +69,30 @@
     height: 100vh;
 }
 
-.principal-title{
-    width: 100%;
+.center-title{
     height: 100vh;
-    margin: 300px 0;
+    position: relative;
     text-align: center;
 }
+
+.center-title h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+}
+
+.center-title a{
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    font-size: 25px;
+}
+
 
 
 /********************RIGHT SIDE*********************/
